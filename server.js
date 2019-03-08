@@ -82,7 +82,7 @@ app.post('/register',(req,res)=>{
 //     res.json(database.users);
 // })
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 
 
