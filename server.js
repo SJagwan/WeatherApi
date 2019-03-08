@@ -78,9 +78,9 @@ app.post('/register',(req,res)=>{
    .catch(err => res.status(404).json('unable to register'));
     
 })
- app.get('/',(req,res)=>{
-    res.json("it is working");
-})
+// app.get('/',(req,res)=>{
+//     res.json(database.users);
+// })
 
 app.listen(process.env.PORT || 3000);
 

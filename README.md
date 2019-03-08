@@ -1,2 +1,0 @@
-# WeatherApi
-Server
